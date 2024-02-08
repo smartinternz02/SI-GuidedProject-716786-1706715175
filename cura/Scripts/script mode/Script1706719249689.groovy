@@ -42,11 +42,11 @@ WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('CURA _OR/a_Make Appointment'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('CURA _OR/input_Username_username'), 'John Doe')
+WebUI.setText(findTestObject('null'), 'John Doe')
 
-WebUI.setText(findTestObject('CURA _OR/input_Password_password'), 'ThisIsNotAPassword')
+WebUI.setText(findTestObject('null'), 'ThisIsNotAPassword')
 
 WebUI.click(findTestObject('CURA Healthcare Service Object Repository/button_Login'))
 
